@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Math Quiz Game</title>
+        <link rel="stylesheet" href="game.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="win"></div>
+        <h4 id="p1_name" class="ns"></h4><h4 id="p1_score" class="ns"></h4>
+        <br>
+        <h4 id="p2_name" class="ns"></h4><h4 id="p2_score" class="ns"></h4>
+        <div class="container">
+           <center>            
+               <h2>Math Quiz Game</h2>
+               <h4>Question Turn: </h4> <h4 id="Qturn"></h4>
+               <h4>Answer Turn: </h4> <h4 id="Aturn"></h4>             
+               <div id="output"></div>
+
+               <h3>Number 1</h2>
+               <input id="n1" type="text" placeholder="Enter the first number">
+               <h3>Number 2</h2>
+               <input id="n2" type="text" placeholder="Enter the second number">
+               <br>
+               <br>
+               <button id="Qbtn" onclick="send()">Send</button>
+           </center> 
+        </div>
+        <script src="gamepage.js"></script>
+    </body>
+</html>

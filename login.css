@@ -1,0 +1,13 @@
+#p1{
+    border-color: black;
+}
+#p2{
+    border-color: black;
+}
+body{
+    text-align: center;
+    background-color: red;
+}
+input{
+    border-radius: 5px;
+}
